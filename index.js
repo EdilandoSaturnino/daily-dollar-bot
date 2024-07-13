@@ -67,7 +67,7 @@ client.once('ready', async () => {
   )
 
   cron.schedule(
-    '10 19 * * *',
+    '17 19 * * *',
     () => {
       sendDollarRate()
     },
