@@ -49,7 +49,7 @@ client.once('ready', () => {
   )
 
   cron.schedule(
-    '10 19 * * *',
+    '17 19 * * *',
     () => {
       sendDollarRate()
     },
